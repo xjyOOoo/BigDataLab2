@@ -10,7 +10,7 @@
 根据mfd_bank_shibor 表，将银行一周利率Interest_1_W划分为不同的区间，统计每个区间下的日均资金流入和流出总量，分析利率与交易资金量之间的关系。绘图结果见InterferingFactors/process.ipynb，初步得到的规律是：在一定范围内，随着银行利率升高，日均资金流入和流出的差额先升高再降低，说明这项指标不仅仅和银行利率有关，可能还和和银行利率变动同时的经济局势变动有关。
 
 # II.程序运行结果
-依次运行：
+对task1-task3分别运行：
 
 hadoop jar DailyFundsAnalysis/target/DailyFundsAnalysis-1.0-SNAPSHOT.jar /user/jyxie/input/user_balance_table.csv /user/jyxie/output_lab2_1
 
