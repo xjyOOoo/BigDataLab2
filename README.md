@@ -21,6 +21,8 @@ hadoop jar ActivityLevelAnalysis/target/ActivityLevelAnalysis-1.0-SNAPSHOT.jar /
 运行成功的web截图： ![](images/image.png)
 输出见output目录下文件
 
+task4使用python进行处理，运行结果在InterferingFactors/process.ipynb
+
 # III.不足与改进之处
 1. 使用了临时输出路径，需要用户提供，用户使用不当容易出现错误，可以更改为根据时间戳自动生成，并在使用后及时删除
 2. 可以增加更加详细的日志代码，在出现问题时便于调试
